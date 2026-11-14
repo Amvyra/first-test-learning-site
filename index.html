@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amvyra — Pet Heating Pads</title>
+  <meta name="description" content="Amvyra makes safe, cozy heating pads that keep your pets warm and comfortable." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #fdf8f3;
+      --text: #2b2420;
+      --muted: #6b5f57;
+      --accent: #e0703a;
+      --accent-dark: #c65a27;
+      --glow: rgba(224, 112, 58, 0.18);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 50% 40%, var(--glow), transparent 60%),
+        var(--bg);
+    }
+
+    header {
+      padding: 24px 32px;
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 1.25rem;
+      letter-spacing: 0.02em;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 16px 64px;
+      text-align: center;
+    }
+
+    .hero { max-width: 640px; }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: #fff;
+      border: 1px solid #f0e2d6;
+      color: var(--accent-dark);
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: clamp(2.5rem, 7vw, 4.25rem);
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    h1 span { color: var(--accent); }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      color: var(--muted);
+      margin-bottom: 36px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 16px 36px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 10px 24px var(--glow);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn:hover { background: var(--accent-dark); transform: translateY(-2px); }
+    .btn:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
+
+    footer {
+      padding: 24px;
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>Amvyra</header>
+
+  <main>
+    <section class="hero">
+      <span class="badge">🐾 Warmth for every paw</span>
+      <h1>Cozy heating pads for <span>happy pets</span></h1>
+      <p>
+        Amvyra heating pads keep your dogs and cats warm, calm, and comfortable —
+        with gentle, pet-safe heat and soft, easy-to-clean covers.
+      </p>
+      <a class="btn" href="#shop">Shop now</a>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Amvyra. All rights reserved.</footer>
+</body>
+</html>
