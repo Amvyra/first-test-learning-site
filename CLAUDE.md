@@ -18,7 +18,8 @@ Notes for Claude about this project. Read at the start of every session.
 
 ## The site
 - Single static page: `index.html` with all CSS inline in a `<style>` tag. No build step, no frameworks.
-- Current sections, top to bottom: header (logo), hero with "Shop now" button, "3 reasons to choose Amvyra" cards, footer.
+- Current sections, top to bottom: header (logo), hero with "Shop now" button, footer.
+- A "3 reasons to choose Amvyra" cards section was tried and removed on purpose. Don't add it back unless asked.
 - Known gap: the "Shop now" button links to `#shop`, but no element has that ID yet.
 
 ## How to work here
