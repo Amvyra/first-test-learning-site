@@ -26,7 +26,7 @@ Notes for Claude about this project. Read at the start of every session.
 ### Collections and pages
 - Collections in use: Home page, Winter Pet Essentials, Free Gifts.
 - Published pages: Contact, FAQ, Shipping Policy, Your Privacy Choices.
-- Two product web addresses (handles) still contain "cozyden", probably from an earlier store name.
+- "cozyden" (probably an earlier store name) remains only in the archived Dog Chew Toy Carrot Rope's handle. The USB Heated Pet Bed's handle was changed to `amvyra-usb-heated-pet-bed`.
 
 ## Brand and tone
 - Friendly, warm, cozy tone. Short, simple sentences.
