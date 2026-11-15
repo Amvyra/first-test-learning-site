@@ -7,6 +7,27 @@ Notes for Claude about this project. Read at the start of every session.
 - Key selling points: auto shut-off, 9 heat levels, free shipping, pet-safe gentle heat, soft easy-to-clean covers.
 - Tagline used on the site: "Warmth for every paw".
 
+## The real store (Shopify)
+- The real store is **amvyra.com**, built on **Shopify** (Basic plan, prices in USD).
+- This GitHub repo is only a **practice/test site** for learning Claude Code and GitHub. It is not the real store.
+- Status (Nov 2026): not launched yet. Visitors see a password-protected "Opening soon" page.
+- Live theme: "Amvyra Why boxes preview (Nov 11)". Several older preview themes also exist, unpublished.
+- Changes to the real store go through the Shopify connection, not this repo. Always ask before changing anything in the store.
+
+### Products
+- **Main product:** Amvyra Auto Shut-Off Pet Heating Pad (Grey), **$64.99**. For cats and small dogs: 9 heat levels, timer that switches it off on its own, wipe-clean surface, chew-resistant cord.
+- **Free gifts with purchase** (active, product type "Free Gift Items"):
+  - Faux Fur Pad Cover (Grey or Brown), listed at $25.00. Zips onto the heating pad.
+  - Pet Grooming and Massage Glove, listed at $12.99.
+  - Obstacle-Dodging Pet Ball, listed at $12.99.
+- **Drafts (not visible yet):** USB Heated Pet Bed ($69.99), Cat Teaser Wand, Cat Nail Clipper, Paw & Nose Balm.
+- **Archived:** older non-pet products from before the store focused on pets, and an older 3-setting heating pad. Ignore these unless asked.
+
+### Collections and pages
+- Collections in use: Home page, Winter Pet Essentials, Free Gifts.
+- Published pages: Contact, FAQ, Shipping Policy, Your Privacy Choices.
+- Two product web addresses (handles) still contain "cozyden", probably from an earlier store name.
+
 ## Brand and tone
 - Friendly, warm, cozy tone. Short, simple sentences.
 - Colors (defined as CSS variables in `index.html`):
