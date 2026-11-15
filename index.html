@@ -93,6 +93,52 @@
     .btn:hover { background: var(--accent-dark); transform: translateY(-2px); }
     .btn:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
 
+    .reasons {
+      padding: 32px 16px 72px;
+      text-align: center;
+    }
+
+    .reasons h2 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: clamp(1.75rem, 4.5vw, 2.5rem);
+      line-height: 1.2;
+      margin-bottom: 40px;
+    }
+
+    .reasons-grid {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .reason {
+      padding: 28px 24px;
+      border-radius: 20px;
+      background: #fff;
+      border: 1px solid #f0e2d6;
+      box-shadow: 0 8px 20px var(--glow);
+    }
+
+    .reason-icon {
+      display: block;
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    .reason h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .reason p {
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+
     footer {
       padding: 24px;
       text-align: center;
@@ -115,6 +161,27 @@
       <a class="btn" href="#shop">Shop now</a>
     </section>
   </main>
+
+  <section class="reasons" aria-labelledby="reasons-title">
+    <h2 id="reasons-title">3 reasons to choose Amvyra</h2>
+    <ul class="reasons-grid">
+      <li class="reason">
+        <span class="reason-icon" aria-hidden="true">⏱️</span>
+        <h3>Auto shut-off</h3>
+        <p>The pad switches itself off automatically, so you never have to worry if you forget.</p>
+      </li>
+      <li class="reason">
+        <span class="reason-icon" aria-hidden="true">🌡️</span>
+        <h3>9 heat levels</h3>
+        <p>Choose from 9 settings to find just the right warmth for your pet, season, and size.</p>
+      </li>
+      <li class="reason">
+        <span class="reason-icon" aria-hidden="true">📦</span>
+        <h3>Free shipping</h3>
+        <p>Every order ships free, straight to your door.</p>
+      </li>
+    </ul>
+  </section>
 
   <footer>&copy; 2026 Amvyra. All rights reserved.</footer>
 </body>
