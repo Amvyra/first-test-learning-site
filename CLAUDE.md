@@ -11,7 +11,7 @@ Notes for Claude about this project. Read at the start of every session.
 - The real store is **amvyra.com**, built on **Shopify** (Basic plan, prices in USD).
 - This GitHub repo is only a **practice/test site** for learning Claude Code and GitHub. It is not the real store.
 - Status (Nov 2026): not launched yet. Visitors see a password-protected "Opening soon" page.
-- Live theme: "Amvyra main" (published Nov 22; it was "Amvyra practice (Nov 21)" with the design polish). Unpublished themes kept: "Amvyra Why boxes preview (Nov 11)" (previous live, for rollback) and "Amvyra simple page (Nov 21)". Older drafts were deleted.
+- Live theme: "Amvyra main 2.0" (published Nov 22; a copy of "Amvyra main" with a reworked heating pad product page). "Amvyra main" is kept unpublished as the backup. Older drafts were deleted.
 - Theme design polish lives in `assets/amvyra-polish.css` (loaded after `base.css` in `layout/theme.liquid`).
 - Shipping: free on every order in the US ("Free shipping on every pad" across the site and the Shipping Policy page). Optional "Package protection" ($4.99) is offered at checkout on purpose; leave it.
 - Shopify blocks deleting themes, and publishing themes Claude didn't create, through the connection; the owner does those in admin.
