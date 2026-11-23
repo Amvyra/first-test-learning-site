@@ -1,10 +1,10 @@
 # My skills, by section
 
-Each folder here is one skill. To use one, type `/` and its name in Claude (for example `/ig-reel`),
-or just describe what you want and Claude picks the right one.
+Your skills live in 5 plugins, one folder each here. In Claude they show as `plugin:skill`,
+for example `/instagram:ig-reel`. Or just describe what you want and Claude picks the right one.
 
-The folders have to stay side by side in this one folder, or Claude can't find them.
-This page is just the map.
+Sections 1–2 are the `website-design` plugin, 3 is `website-checks`, 4–6 are `instagram`,
+7 is `marketing-brand` and 8 is `writing`.
 
 ## 1. Website design and look
 | Skill | What it does |

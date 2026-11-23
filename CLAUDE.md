@@ -49,10 +49,10 @@ Notes for Claude about this project. Read at the start of every session.
 - A "3 reasons to choose Amvyra" cards section was tried and removed on purpose. Don't add it back unless asked.
 - Known gap: the "Shop now" button links to `#shop`, but no element has that ID yet.
 
-## Skills organization (on hold, Nov 23)
-- Skills live in `.claude/skills/` (map by section in `.claude/skills/README.md`).
-- Copies are also packaged as 5 plugins in `plugins/` (Website Design, Website Checks, Instagram, Marketing & Brand, Writing), listed in `.claude-plugin/marketplace.json`. The owner uploaded some as zips in Claude (Customize → Plugins → Upload plugin). The app shows each skill with a short description, not section headings, and the owner likes that.
-- Paused on purpose: the loose copies in `.claude/skills/` were NOT removed. When the owner adds more skills, sort them into these sections (update the plugin, the README map and the zips) and ask whether to finish the cleanup.
+## Skills organization (Nov 23)
+- All skills live only in 5 plugins in `plugins/` (Website Design, Website Checks, Instagram, Marketing & Brand, Writing), listed in `.claude-plugin/marketplace.json`, with a map by section in `plugins/README.md`. The loose copies in `.claude/skills/` were removed on purpose.
+- The owner installs them by uploading each plugin as a zip in the Claude app (Plugins → Add → Upload plugin). They show as `plugin:skill` (e.g. `instagram:ig-reel`) with a short, plain description, which the owner likes. Keep descriptions short: what it does + "Use when…".
+- When the owner adds a skill: check it first, put it in the right plugin, update the map, bump the plugin version, validate (`claude plugin validate`), and send the new zip.
 
 ## How to work here
 - The owner is learning, so explain changes in plain language and keep the code simple.
