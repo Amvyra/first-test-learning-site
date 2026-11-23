@@ -1,11 +1,6 @@
 ---
 name: ig-dm
-description: >-
-  Write Instagram DMs that get replies - the keyword delivery, the first
-  message to someone who engaged, the collab pitch, and the two follow-ups. Use
-  when the user says "DM this person", "what do I send them", "outreach
-  message", "how do I follow up", "pitch this brand", or is reaching out to
-  someone specific.
+description: "Writes Instagram DMs that get replies: first messages, collab pitches and follow-ups. Use when reaching out to someone."
 ---
 
 # ig-dm

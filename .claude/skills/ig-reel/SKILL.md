@@ -1,12 +1,6 @@
 ---
 name: ig-reel
-description: >-
-  Write an Instagram Reel from a raw idea - hook options off 26 formulas, the
-  spoken script, the on-screen text, and a timed beat sheet - in the user's own
-  voice and scored before they shoot it. Use whenever the user wants a Reel, a
-  short-form video script, a hook, a voiceover, "make a reel about X", "what
-  should I say in this video", or is about to record and does not have the
-  first line yet.
+description: "Writes an Instagram reel from an idea: the hook, script, on-screen text and timing. Use before you record a reel."
 ---
 
 # ig-reel

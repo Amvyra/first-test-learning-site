@@ -1,18 +1,6 @@
 ---
 name: apple-look
-description: >
-  Cross-platform UI/UX design reviewer grounded in Apple's Human Interface Guidelines (123 pages
-  pulled from developer.apple.com, including 57 component pages) plus a design-craft lens for
-  distinctive, non-templated work. Use it to audit, review, critique, or improve any mobile app
-  (iOS, Flutter, React Native) or desktop app (macOS, Tauri, Electron) design: design review, UI
-  audit, HIG compliance, accessibility audit, dark mode, Liquid Glass or glassmorphism, navigation
-  structure, iPhone Duo or foldable layouts, Apple Pay buttons and marks, widgets and Live
-  Activities, onboarding, forms, app icons, generative AI UX, App Review rejections over design or
-  branding, retro or classic Mac and iOS looks, the history behind a guideline, or requests like
-  "make this look less generic". Also use whenever the user shares
-  screenshots, mockups, wireframes, Figma exports, or UI code and wants feedback, even if they
-  only say "review my design" or "is this good UI", or asks to audit a codebase or pull request.
-  Works for SwiftUI, UIKit, AppKit, Flutter, React Native, Tauri, and Electron.
+description: "Reviews app or website designs against Apple's design rules. Use for design reviews, UI checks, or screenshots and mockups you want feedback on."
 ---
 
 # Apple Design Skill

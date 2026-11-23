@@ -1,6 +1,6 @@
 ---
 name: content-engine
-description: Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
+description: "Makes posts and scripts for TikTok, YouTube, X, LinkedIn and newsletters, and turns one idea into many posts. Use for social content and content plans."
 metadata:
   origin: ECC
 ---

@@ -1,11 +1,6 @@
 ---
 name: ig-audit
-description: >-
-  Post-mortem on what the user has already posted - which reels actually
-  worked, why, and what to stop making. Use when the user pastes their
-  Instagram insights or past posts and asks "what's working", "why did this
-  flop", "read my analytics", "audit my content", or wants to know what to do
-  more of.
+description: "Reads your past Instagram posts and stats: what worked, why, and what to stop. Use when you share your insights or ask what's working."
 ---
 
 # ig-audit

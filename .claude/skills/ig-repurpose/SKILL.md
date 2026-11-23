@@ -1,11 +1,6 @@
 ---
 name: ig-repurpose
-description: >-
-  Turn one long asset - a YouTube video, podcast, livestream, newsletter, blog
-  post or client call - into a week of reels and carousels. Use when the user
-  says "repurpose this", "turn this into reels", "I have a video/podcast/
-  transcript", "cut this up", or pastes something long and wants it on
-  Instagram.
+description: "Turns one long video, podcast or article into a week of reels and carousels. Use when you have long content to cut up."
 ---
 
 # ig-repurpose

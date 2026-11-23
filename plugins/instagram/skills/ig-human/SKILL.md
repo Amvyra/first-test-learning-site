@@ -1,12 +1,6 @@
 ---
 name: ig-human
-description: >-
-  Strip the machine fingerprint out of any draft - em dashes, AI slop words,
-  invisible watermark characters - and score it against a five-check detection
-  panel before it goes out. Use whenever text needs to sound human, when the
-  user says humanize, "does this sound like AI", "remove the em dashes",
-  "de-slop this", "this sounds like ChatGPT", or before any caption, script,
-  comment, reply or DM is shown to the user.
+description: "Makes any text sound like a person wrote it, not AI. Use before posting a caption, script, comment or DM."
 ---
 
 # ig-human
