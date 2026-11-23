@@ -17,6 +17,7 @@ Notes for Claude about this project. Read at the start of every session.
 - Shipping: free on every order in the US ("Free shipping on every pad" across the site and the Shipping Policy page). Optional "Package protection" ($4.99) is offered at checkout on purpose; leave it.
 - Delivery: 10 to 16 days from order (ships in 1–3 days), U.S. only. Email replies: within 24–48 hours. Main menu: Home page, Shop the pad, Contact, Track Your Order, FAQ. FAQ and Shipping Policy pages match this (updated Nov 22).
 - Reviews: Judge.me. Offers/bundles: Pumper Bundles (colors set in the app; the redesign overrides the selected-offer outline and the review button in theme CSS).
+- Black Friday 2026 (Nov 27–30): sale theme "Amvyra Black Friday (Nov 2026)" (unpublished until Nov 27), $10-off automatic discount scheduled, FAQ question added. Open tasks and dates are in `BLACK-FRIDAY-2026.md`; read it when the owner asks what's left.
 - Shopify blocks deleting themes, and publishing themes Claude didn't create, through the connection; the owner does those in admin.
 - Changes to the real store go through the Shopify connection, not this repo. Always ask before changing anything in the store.
 
