@@ -13,6 +13,7 @@ This page is just the map.
 | make-interfaces-feel-better | Small polish details: spacing, text, shadows, buttons, hover and tap states |
 | apple-look | Reviews a design against Apple's design rules (apps, screens, mockups) |
 | design-system | Pulls out a site's colors, fonts and spacing into one set of rules, and checks they're used consistently |
+| mobile-native | Makes the site feel smooth on phones: no stuck highlights after a tap, no zoom when typing, nothing cut off by the notch |
 
 ## 2. Animation and motion
 | Skill | What it does |
