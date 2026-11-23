@@ -58,4 +58,8 @@ Notes for Claude about this project. Read at the start of every session.
 - The owner is learning, so explain changes in plain language and keep the code simple.
 - Keep new sections consistent with the existing colors, fonts and card style.
 - Make sure pages work on phone screens (no sideways scrolling).
+- If a skill disagrees with the theme's `DESIGN.md`, `DESIGN.md` wins. Say what was overridden.
+- Check before saying "done" on any design change, as its own step:
+  1. Test first, fix nothing yet: desktop (1440px) and phone (390px) screenshots, every link, the phone menu, any forms, text contrast. On phones, measure that the page isn't wider than the screen; screenshots alone don't show sideways scrolling. List every problem.
+  2. Fix 3 problems at a time, then test again. Stop when the list is empty or after 3 rounds, and report anything still broken.
 - Commit and push finished changes to the working branch.
