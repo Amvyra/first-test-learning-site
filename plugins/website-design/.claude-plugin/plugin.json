@@ -1,6 +1,9 @@
 {
   "name": "website-design",
+  "displayName": "Website Design",
   "description": "Design and animation skills: design direction, polish, Apple-style look and motion, design systems, animation reviews.",
   "version": "1.0.0",
-  "author": { "name": "Amvyra" }
+  "author": {
+    "name": "Amvyra"
+  }
 }
