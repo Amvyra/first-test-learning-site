@@ -11,7 +11,13 @@ Notes for Claude about this project. Read at the start of every session.
 - The real store is **amvyra.com**, built on **Shopify** (Basic plan, prices in USD).
 - This GitHub repo is only a **practice/test site** for learning Claude Code and GitHub. It is not the real store.
 - Status (Nov 2026): not launched yet. Visitors see a password-protected "Opening soon" page.
-- Live theme: "Amvyra Why boxes preview (Nov 11)". Several older preview themes also exist, unpublished.
+- Live theme: "Amvyra redesign (Nov 22)" (published by the owner on Nov 22). Concept "Frost outside, ember inside": midnight/paper surfaces, logo red-to-orange gradient, Fraunces + Figtree, new sections `amv-hero`, `amv-split`, `amv-spotlight` (with crop-top setting), `amv-heat-dial` (with tip box), plus product-page tools `amv-fit` (size check, in/cm) and `amv-run-cost` (running cost, U.S./Europe), styles in `assets/amvyra-redesign.css`, rules in the theme's `DESIGN.md`. Created by Claude.
+- Unpublished, kept for rollback: "Amvyra main 2.0" (previous live) and "Amvyra main backup".
+- Theme design polish lives in `assets/amvyra-polish.css` (loaded after `base.css` in `layout/theme.liquid`).
+- Shipping: free on every order in the US ("Free shipping on every pad" across the site and the Shipping Policy page). Optional "Package protection" ($4.99) is offered at checkout on purpose; leave it.
+- Delivery: 10 to 16 days from order (ships in 1–3 days), U.S. only. Email replies: within 24–48 hours. Main menu: Home page, Shop the pad, Contact, Track Your Order, FAQ. FAQ and Shipping Policy pages match this (updated Nov 22).
+- Reviews: Judge.me. Offers/bundles: Pumper Bundles (colors set in the app; the redesign overrides the selected-offer outline and the review button in theme CSS).
+- Shopify blocks deleting themes, and publishing themes Claude didn't create, through the connection; the owner does those in admin.
 - Changes to the real store go through the Shopify connection, not this repo. Always ask before changing anything in the store.
 
 ### Products
@@ -43,8 +49,17 @@ Notes for Claude about this project. Read at the start of every session.
 - A "3 reasons to choose Amvyra" cards section was tried and removed on purpose. Don't add it back unless asked.
 - Known gap: the "Shop now" button links to `#shop`, but no element has that ID yet.
 
+## Skills organization (Nov 23)
+- All skills live only in 5 plugins in `plugins/` (Website Design, Website Checks, Instagram, Marketing & Brand, Writing), listed in `.claude-plugin/marketplace.json`, with a map by section in `plugins/README.md`. The loose copies in `.claude/skills/` were removed on purpose.
+- The owner installs them by uploading each plugin as a zip in the Claude app (Plugins → Add → Upload plugin). They show as `plugin:skill` (e.g. `instagram:ig-reel`) with a short, plain description, which the owner likes. Keep descriptions short: what it does + "Use when…".
+- When the owner adds a skill: check it first, put it in the right plugin, update the map, bump the plugin version, validate (`claude plugin validate`), and send the new zip.
+
 ## How to work here
 - The owner is learning, so explain changes in plain language and keep the code simple.
 - Keep new sections consistent with the existing colors, fonts and card style.
 - Make sure pages work on phone screens (no sideways scrolling).
+- If a skill disagrees with the theme's `DESIGN.md`, `DESIGN.md` wins. Say what was overridden.
+- Check before saying "done" on any design change, as its own step:
+  1. Test first, fix nothing yet: desktop (1440px) and phone (390px) screenshots, every link, the phone menu, any forms, text contrast. On phones, measure that the page isn't wider than the screen; screenshots alone don't show sideways scrolling. List every problem.
+  2. Fix 3 problems at a time, then test again. Stop when the list is empty or after 3 rounds, and report anything still broken.
 - Commit and push finished changes to the working branch.

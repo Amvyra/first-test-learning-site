@@ -1,0 +1,12 @@
+{
+  "name": "amvyra-skills",
+  "owner": { "name": "Amvyra" },
+  "metadata": { "description": "Amvyra's skills, grouped into 5 sections." },
+  "plugins": [
+    { "name": "website-design", "source": "./plugins/website-design", "description": "Design and animation skills." },
+    { "name": "website-checks", "source": "./plugins/website-checks", "description": "SEO and launch-readiness checks." },
+    { "name": "instagram", "source": "./plugins/instagram", "description": "All Instagram skills." },
+    { "name": "marketing-brand", "source": "./plugins/marketing-brand", "description": "Brand and marketing skills." },
+    { "name": "writing", "source": "./plugins/writing", "description": "Articles and social content." }
+  ]
+}
