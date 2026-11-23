@@ -49,6 +49,11 @@ Notes for Claude about this project. Read at the start of every session.
 - A "3 reasons to choose Amvyra" cards section was tried and removed on purpose. Don't add it back unless asked.
 - Known gap: the "Shop now" button links to `#shop`, but no element has that ID yet.
 
+## Skills organization (on hold, Nov 23)
+- Skills live in `.claude/skills/` (map by section in `.claude/skills/README.md`).
+- Copies are also packaged as 5 plugins in `plugins/` (Website Design, Website Checks, Instagram, Marketing & Brand, Writing), listed in `.claude-plugin/marketplace.json`. The owner uploaded some as zips in Claude (Customize → Plugins → Upload plugin). The app shows each skill with a short description, not section headings, and the owner likes that.
+- Paused on purpose: the loose copies in `.claude/skills/` were NOT removed. When the owner adds more skills, sort them into these sections (update the plugin, the README map and the zips) and ask whether to finish the cleanup.
+
 ## How to work here
 - The owner is learning, so explain changes in plain language and keep the code simple.
 - Keep new sections consistent with the existing colors, fonts and card style.
