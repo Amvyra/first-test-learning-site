@@ -1,0 +1,6 @@
+{
+  "name": "website-checks",
+  "description": "Checks for a website: SEO and launch readiness.",
+  "version": "1.0.0",
+  "author": { "name": "Amvyra" }
+}
