@@ -26,7 +26,8 @@ Notes for Claude about this project. Read at the start of every session.
   - Faux Fur Pad Cover (Grey or Brown), listed at $25.00. Zips onto the heating pad.
   - Pet Grooming and Massage Glove, listed at $12.99.
   - Obstacle-Dodging Pet Ball, listed at $12.99.
-- **Drafts (not visible yet):** USB Heated Pet Bed ($69.99), Cat Teaser Wand, Cat Nail Clipper, Paw & Nose Balm.
+- Cat Nail Clipper ($12.99) was made Active on Nov 23 as a Black Friday free gift.
+- **Drafts (not visible yet):** USB Heated Pet Bed ($69.99), Cat Teaser Wand, Paw & Nose Balm.
 - **Archived:** older non-pet products from before the store focused on pets, and an older 3-setting heating pad. Ignore these unless asked.
 
 ### Collections and pages
@@ -48,6 +49,10 @@ Notes for Claude about this project. Read at the start of every session.
 - Current sections, top to bottom: header (logo), hero with "Shop now" button, footer.
 - A "3 reasons to choose Amvyra" cards section was tried and removed on purpose. Don't add it back unless asked.
 - Known gap: the "Shop now" button links to `#shop`, but no element has that ID yet.
+
+## Owner's dashboard (Nov 25)
+- Private Claude dashboard: https://claude.ai/artifact/E2TwKqsVSfToGva1brDQeu ("Amvyra dashboard", Data type). Live from Shopify: password status, orders and sales, active products, discounts, theme. Also the Black Friday checklist (store steps tick themselves, the rest are ticked by the owner), recent Claude chats (Claude Code Remote connector), skills by plugin, and private notes.
+- The owner asks Claude to change it any time: read the page file first, then edit through the artifact's data (ArtifactData), not this repo. Update the skills cards when plugins change.
 
 ## Skills organization (Nov 23)
 - All skills live only in 5 plugins in `plugins/` (Website Design, Website Checks, Instagram, Marketing & Brand, Writing), listed in `.claude-plugin/marketplace.json`, with a map by section in `plugins/README.md`. The loose copies in `.claude/skills/` were removed on purpose.
