@@ -14,6 +14,8 @@ Sections 1–2 are the `website-design` plugin, 3 is `website-checks`, 4–6 are
 | apple-look | Reviews a design against Apple's design rules (apps, screens, mockups) |
 | design-system | Pulls out a site's colors, fonts and spacing into one set of rules, and checks they're used consistently |
 | mobile-native | Makes the site feel smooth on phones: no stuck highlights after a tap, no zoom when typing, nothing cut off by the notch |
+| moodboard | Shows 2 or 3 looks side by side (colors, fonts, photos, sample buttons) so you can pick one before building |
+| page-builder | Turns an idea for a page into 2 quick mockups, then builds the real page and checks it on desktop and phone |
 
 ## 2. Animation and motion
 | Skill | What it does |
@@ -57,6 +59,7 @@ Sections 1–2 are the `website-design` plugin, 3 is `website-checks`, 4–6 are
 | Skill | What it does |
 |---|---|
 | brand-discovery | A step-by-step interview to figure out your brand (who it's for, how it sounds) |
+| brand-kit | Reads a website and writes down its colors, fonts, tone and products in one file, then makes on-brand posts |
 | brand-voice | Learns how you write from your real posts, so new writing sounds like you |
 | marketing-campaign | Plans a full launch: ads, emails, social posts, landing page |
 | market-research | Researches competitors and the market |
